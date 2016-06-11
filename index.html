@@ -1,0 +1,39 @@
+<html>
+	<header>	
+	<script type="text/javascript" src="db.js"></script>
+	<script type="text/javascript" src="teleologic.js"></script>	
+	</header>
+	<body>
+		<div style="margin: 0 auto; text-align:center">
+
+		<input id="in" type="text" style="text-align: center; font-size: 2em;"></input>
+		<button type="button" style="font-size: 2em;" onclick="show()" >see future</button>
+		<div id="out" style="font-size: 5em; margin-top:2em;"></div>
+
+		</div>
+	
+	<script type="text/javascript">		
+		function setOut(ou){
+			document.getElementById('out').innerHTML=ou;		
+		}
+
+		function show() {		    
+		        setOut(extintionTest(document.getElementById('in').value));
+		}
+		
+		function enter(el) {
+		    if(event.keyCode == 13) {
+		        show();		        
+		    }
+		}
+
+		var inel = document.getElementById("in");
+		inel.addEventListener("keydown", function (e) {
+		    if (e.keyCode === 13) {  
+		        show();
+		    }
+		});
+	</script>
+	
+	</body>
+</html>
