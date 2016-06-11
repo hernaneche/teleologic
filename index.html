@@ -6,7 +6,7 @@
 	<body>
 		<div style="margin: 0 auto; text-align:center">
 
-		<input id="in" type="text" style="text-align: center; font-size: 2em;"></input>
+		<input id="in" type="text" style="text-align: center; font-size: 2em;" autofocus></input>
 		<button type="button" style="font-size: 2em;" onclick="show()" >see future</button>
 		<div id="out" style="font-size: 5em; margin-top:2em;"></div>
 
@@ -18,7 +18,7 @@
 		}
 
 		function show() {		    
-		        setOut(extintionTest(document.getElementById('in').value));
+		    setOut(extintionTest(document.getElementById('in').value));
 		}
 		
 		function enter(el) {
