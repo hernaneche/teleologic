@@ -7,7 +7,7 @@
 		margin: 0 auto; text-align:center;
 	}
 	.inp{
-		text-align: center; font-size: 3.5em;
+		top-margin:1em; text-align: center; font-size: 3.6em;
 	}
 	.outp{
 		font-size: 5em; margin-top:2em;
@@ -16,7 +16,7 @@
 	</header>
 	<body>
 		<div class="centered">
-			<input id="in" type="text" class="inp" autofocus></input>
+			<input id="in" type="text" class="inp" autofocus placeholder="type a tech or product name.."></input>
 			<button type="button" class="inp" onclick="show()" >see future</button>
 			<div id="out" class="outp"></div>
 		</div>
@@ -28,12 +28,6 @@
 
 		function show() {		    
 		    setOut(extintionTest(document.getElementById('in').value));
-		}
-		
-		function enter(el) {
-		    if(event.keyCode == 13) {
-		        show();		        
-		    }
 		}
 
 		var inel = document.getElementById("in");
