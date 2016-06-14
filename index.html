@@ -53,7 +53,7 @@
 	
 	<script type="text/javascript">		
 		function init(){
-		      var jsonOptions = JSON.parse(db);
+		      var jsonOptions = db;
 		      jsonOptions.forEach(function(item) {
 		        var option = document.createElement('option');
 		        option.value = item.name;
