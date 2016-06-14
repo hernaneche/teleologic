@@ -73,8 +73,12 @@
 
 		window.onload=init();
 		var inel = document.getElementById("in");
-		inel.addEventListener("keydown", function (e) {
+		inel.addEventListener("keyup", function (e) {
 		    if (e.keyCode === 13) {  
+		    	if(inel.value.length===0){	
+		    	 	event.preventDefault();
+          			return false;
+		    	}
 		        show();
 		    }
 		});
