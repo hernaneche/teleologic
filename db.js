@@ -10,6 +10,6 @@ var db=[{"name":"twitter",	"descentralized": false},
 	{"name":"david-dm",	"descentralized": false},
 	{"name":"github",	"descentralized": false}];
 
-	var exMessages=["will be totally extinct.", "extinct", "go away!", "good bye!", "time will take you to oblivion, forever.", "is that thing still around?" ];
-	var goMessages=["long life to you!", "you are welcome in the world", "you will survive!", "aeons will see you!", "you will live!"];
+	var exMessages=["will be totally extinct.", "extinct.", "go away.", "good bye.", "time will take you to oblivion, forever.", "is that thing still around?" ];
+	var goMessages=["long life to you!", "you seems to be very welcome in the world!", "you survive!", "perhaps aeons will see you! good luck!", "you will live!"];
 	
