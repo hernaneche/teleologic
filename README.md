@@ -1,4 +1,6 @@
 # teleologic
-know the future
+##know the future
 
-YOU CAN NOT PREDICT THE FUTURE, EXCEPT WHEN YOU CAN.
+it is impossible to make predictions, except when they are obvious.
+
+This site tests technology for necessary conditions, but not sufficient, to get into the future.
