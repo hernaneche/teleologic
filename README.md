@@ -1,5 +1,5 @@
 # teleologic
-###know the future
+### know the future
 
 It is impossible to make predictions, except when they are obvious.
 
